@@ -1,0 +1,49 @@
+@charset "utf-8";
+.block_common
+{
+    width:100px;
+    height:20px;
+    border-style:solid;
+    border-color:#1CADE9;
+    border-width:1px;
+    padding:2px;
+    float:left;
+    font-family:'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+.block_common a
+{
+    text-decoration: none;
+}
+.block_left
+{
+    border-right-width:0px;
+    border-radius:3px 0px 0px 3px;            /* 左上 右上 右下 左下 */
+
+}
+.block_mid
+{
+    border-right-width:0px;
+}
+.block_right
+{
+
+    border-radius:0px 3px 3px 0px;            /* 左上 右上 右下 左下 */
+}
+.menu_block_0
+{
+    background-color:#009DD7;
+    color:#FFFFFF;
+}
+.menu_block_1
+{
+    color:#1CADE9;
+    background-color:#FFFFFF;
+}
+.menu_block_0 a
+{
+    color:#FFFFFF;
+}
+.menu_block_1 a
+{
+    color:#1CADE9;
+}
